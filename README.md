@@ -1,13 +1,13 @@
 # LMM DGE Pipeline
 
 
-#1.Normalization and prepare file for GEMMA
+## 1.Normalization and prepare file for GEMMA
 
 Required file
 Raw read counts: sample_raw_reads.txt
 Covariate matrix: cov_matrix.txt
 
-#2.LMM test using GEMMA 
+## 2.LMM test using GEMMA 
 
 For details, please see https://github.com/genetics-statistics/GEMMA
 
