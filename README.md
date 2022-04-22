@@ -11,7 +11,7 @@ See normalization.R
 
 ## 2.LMM test using GEMMA 
 
-For details, please see https://github.com/genetics-statistics/GEMMA
+For installment detail please see https://github.com/genetics-statistics/GEMMA
 
 Required file <br>
 gzip read counts: normalized_reads.txt.gz <br>
