@@ -1,0 +1,27 @@
+##
+## GEMMA Version    = 0.98.3 (2020-11-28)
+## Build profile    = 
+## GCC version      = 7.5.0
+## GSL Version      = 2.6
+## OpenBlas         = OpenBLAS 0.3.9  - OpenBLAS 0.3.9 DYNAMIC_ARCH NO_AFFINITY Sandybridge MAX_THREADS=128
+##   arch           = Sandybridge
+##   threads        = 2
+##   parallel type  = threaded
+##
+## Command Line Input = gemma -g normalized_reads.txt.gz -p phenotype.txt -c cov_bim.txt -gk 2 -notsnp -o cov_mat 
+##
+## Date = Fri Apr 22 16:28:06 2022
+##
+## Summary Statistics:
+## number of total individuals = 97
+## number of analyzed individuals = 97
+## number of covariates = 4
+## number of phenotypes = 1
+## number of total SNPs/var = 98
+## number of analyzed SNPs/var = 98
+##
+## Computation Time:
+## total computation time = 0.00287277 min 
+## computation time break down: 
+##      time on calculating relatedness matrix = 0.000921417 min 
+##

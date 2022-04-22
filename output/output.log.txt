@@ -1,0 +1,37 @@
+##
+## GEMMA Version    = 0.98.3 (2020-11-28)
+## Build profile    = 
+## GCC version      = 7.5.0
+## GSL Version      = 2.6
+## OpenBlas         = OpenBLAS 0.3.9  - OpenBLAS 0.3.9 DYNAMIC_ARCH NO_AFFINITY Sandybridge MAX_THREADS=128
+##   arch           = Sandybridge
+##   threads        = 2
+##   parallel type  = threaded
+##
+## Command Line Input = gemma -g normalized_reads.txt.gz -p phenotype.txt -k output/cov_mat.sXX.txt -c cov_bim.txt -lmm 4 -notsnp -o output 
+##
+## Date = Fri Apr 22 16:35:46 2022
+##
+## Summary Statistics:
+## number of total individuals = 97
+## number of analyzed individuals = 97
+## number of covariates = 4
+## number of phenotypes = 1
+## number of total SNPs/var = 98
+## number of analyzed SNPs/var = 98
+## REMLE log-likelihood in the null model = -196.812
+## MLE log-likelihood in the null model = -203.235
+## pve estimate in the null model = 9.9999e-06
+## se(pve) in the null model = 0.147483
+## vg estimate in the null model = 4.03351e-05
+## ve estimate in the null model = 4.03351
+## beta estimate in the null model =   1.42695  -1.3917  0.306851  0.0257033
+## se(beta) =   3.01138  0.484754  0.413674  0.0438122
+##
+## Computation Time:
+## total computation time = 0.00380943 min 
+## computation time break down: 
+##      time on eigen-decomposition = 0.00026445 min 
+##      time on calculating UtX = 1.44e-05 min 
+##      time on optimization = 0.00215515 min 
+##
