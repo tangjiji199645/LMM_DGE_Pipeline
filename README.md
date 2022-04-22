@@ -3,9 +3,9 @@
 
 ## 1.Normalization and prepare file for GEMMA
 
-Required file
-Raw read counts: sample_raw_reads.txt
-Covariate matrix: cov_matrix.txt
+Required file <br>
+Raw read counts: sample_raw_reads.txt <br>
+Covariate matrix: cov_matrix.txt <br>
 
 See normalization.R
 
@@ -13,14 +13,14 @@ See normalization.R
 
 For details, please see https://github.com/genetics-statistics/GEMMA
 
-Required file
-gzip read counts: normalized_reads.txt.gz
-Phenotype: phenotype.txt
-Covariate matrix: cov_bim.txt
+Required file <br>
+gzip read counts: normalized_reads.txt.gz <br>
+Phenotype: phenotype.txt <br>
+Covariate matrix: cov_bim.txt <br>
 
-Get Kinship matrix 
+Get Kinship matrix <br>
 gemma -g normalized_reads.txt.gz -p phenotype.txt -c cov_bim.txt -gk 2 -notsnp -o cov_mat
 
-LMM 
+LMM <br>
 gemma -g normalized_reads.txt.gz -p phenotype.txt -k output/cov_mat.sXX.txt -c cov_bim.txt -lmm 4 -notsnp -o output
 
