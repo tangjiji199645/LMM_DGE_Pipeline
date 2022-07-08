@@ -24,3 +24,8 @@ gemma -g normalized_reads.txt.gz -p phenotype.txt -c cov_bim.txt -gk 2 -notsnp -
 LMM <br>
 gemma -g normalized_reads.txt.gz -p phenotype.txt -k output/cov_mat.sXX.txt -c cov_bim.txt -lmm 4 -notsnp -o output
 
+## 3.Visualization 
+Required file <br>
+sample data: sample_data.txt <br>
+qq plot, manhattan plot and volcano_plot
+
