@@ -94,7 +94,7 @@ volcano_plot<-function(data,title){
 
 ###Load sample data##################
 #23=X 24=M
-sample_data<-read.table("/Users/tangji/research/DGE_BVSR/quantile_regression/data/sample_data.txt",header=TRUE)
+sample_data<-read.table("sample_data.txt",header=TRUE)
 
 sample_data$chr<-as.numeric(output_gemma_cog_pos$chr)
 
