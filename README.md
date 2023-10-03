@@ -1,5 +1,17 @@
 # LMM DGE Pipeline
 
+## Setup GEMMA
+
+1. For Mac or Windows, Using docker to run GEMMA, https://github.com/genetics-statistics/GEMMA. After adding the GEMMA image into docker,
+
+ Open terminal to run this following command to run GEMMA: <br>
+ 
+ docker run -w /run -v ${local_path for your files}:/run ed5bf7499691 gemma <br>
+
+2. For Linux or HPC, download the binary format from https://github.com/genetics-statistics/GEMMA. <br>
+chmod u+x gemma <br>
+./gemma <br>
+
 
 ## 1.Normalization and prepare file for GEMMA
 
