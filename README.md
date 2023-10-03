@@ -60,7 +60,7 @@ This will conduct the DGE anlysis by LMM GEMMA approach. The default output file
 p_wald, p_lrt and p_score is the p-value for wald test, likelihood ratio test and score test for the differentially expressed.
 
 ## 3.Visualization 
-Required file <br>
+Required file: <br>
 sample data: sample_data.txt <br>
 Create qq plot, manhattan plot and volcano plot.
 
