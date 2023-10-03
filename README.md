@@ -64,3 +64,6 @@ Required file <br>
 sample data: sample_data.txt <br>
 Create qq plot, manhattan plot and volcano_plot.
 
+The example qqplot:
+![QQplot](https://github.com/tangjiji199645/test/assets/59122080/e767d15a-8781-4b6e-85ac-1abc0c7d825a)
+
