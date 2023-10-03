@@ -2,10 +2,7 @@
 
 ## Setup GEMMA
 
-1. For Mac or Windows, Using docker to run GEMMA, https://github.com/genetics-statistics/GEMMA. After adding the GEMMA image into docker,
-
- Open terminal to run this following command to run GEMMA: <br>
- 
+1. For Mac or Windows, Using docker to run GEMMA, https://github.com/genetics-statistics/GEMMA. After adding the GEMMA image into docker, open terminal to run this following command to run GEMMA: <br>
  docker run -w /run -v ${local_path for your files}:/run ed5bf7499691 gemma <br>
 
 2. For Linux or HPC, download the binary format from https://github.com/genetics-statistics/GEMMA. <br>
