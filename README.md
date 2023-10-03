@@ -9,8 +9,8 @@
 
 2. For Linux or HPC, download the binary format from https://github.com/genetics-statistics/GEMMA.
 ```
-chmod u+x gemma <br>
-./gemma <br>
+chmod u+x gemma 
+./gemma 
 ```
 
 ## 1.Normalization and prepare file for GEMMA
@@ -19,7 +19,11 @@ Required file <br>
 Raw read counts: sample_raw_reads.txt <br>
 Covariate matrix: cov_matrix.txt <br>
 
-See normalization.R
+For read counts file, the first three column is gene id, the second and third column is allele types (Ignore this here, type all A/T/C/G in one column). 
+
+For the covariate matrix, intercept is manually required.
+
+Use DESeq2 to normalize the raw read counts, for details, see normalization.R
 
 ## 2.LMM test using GEMMA 
 
