@@ -96,7 +96,7 @@ volcano_plot<-function(data,title){
 #23=X 24=M
 sample_data<-read.table("sample_data.txt",header=TRUE)
 
-sample_data$chr<-as.numeric(output_gemma_cog_pos$chr)
+sample_data$chr<-as.numeric(sample_data$chr)
 
 ###qqplot example##################
 qq_plot<-qq_ggplot(sample_data$p_wald)
