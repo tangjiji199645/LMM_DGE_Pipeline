@@ -73,6 +73,7 @@ The example manhattan plot:
 ![manplot](https://github.com/tangjiji199645/test/assets/59122080/f78a73dd-7365-4271-b907-8a415a0f5fe0)
 
 The example volcano plot:
+
 ![Voc_plot](https://github.com/tangjiji199645/test/assets/59122080/a6779774-3fc1-4b5c-8173-b4f7ce5b667a)
 
 
