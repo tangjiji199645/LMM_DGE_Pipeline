@@ -62,9 +62,22 @@ p_wald, p_lrt and p_score is the p-value for wald test, likelihood ratio test an
 ## 3.Visualization 
 Required file <br>
 sample data: sample_data.txt <br>
-Create qq plot, manhattan plot and volcano_plot.
+Create qq plot, manhattan plot and volcano plot.
 
 The example qqplot:
 
 ![QQplot](https://github.com/tangjiji199645/test/assets/59122080/e767d15a-8781-4b6e-85ac-1abc0c7d825a)
+
+The example manhattan plot:
+
+![manplot](https://github.com/tangjiji199645/test/assets/59122080/f78a73dd-7365-4271-b907-8a415a0f5fe0)
+
+The example volcano plot:
+![Voc_plot](https://github.com/tangjiji199645/test/assets/59122080/a6779774-3fc1-4b5c-8173-b4f7ce5b667a)
+
+
+
+
+
+
 
